@@ -1,0 +1,180 @@
+body{
+/*	background: #0B9CA0;*/
+}
+header{
+	background: #55CBB3;
+/*	padding: 1px;*/
+/*	text-align: center;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	font-family:"Matura MT Script Capitals";
+	height: 80px;
+	border-bottom: 1px #B8B8B8 solid;
+}
+
+
+
+.group{
+/*	display: flex;*/
+}
+menu{
+/*	background: yellow;*/
+	text-align: center;
+/*	width: 200px;*/
+/*	padding:0px;*/
+	font-family:"Jokerman";
+}
+
+.menuf> li {
+  display: inline-block;
+  position: relative;
+}
+.menu {
+
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+
+}
+.menuf > li:hover .menu{
+  visibility: visible;
+
+}
+menu ul {
+/*	display: flex;*/
+    justify-content: center;
+    align-items: start;
+/*	display: none;*/
+	padding:10px;
+}
+menu li{
+	
+	list-style-type: none;
+	border: 1px black solid;
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+menu li:hover{
+	background: #DDACE3;
+}
+
+menu li a
+{
+	text-decoration: none;
+}
+
+
+
+
+main{
+/*	background: aqua;*/
+	text-align: center;
+	border-left: 1px #B8B8B8 solid;
+}
+
+.news{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.popular{
+	display: flex;
+	flex-wrap: wrap;
+}
+.content{
+	border: 3px #0B9CA0 double;
+	margin: 5px;
+}
+.content a p {
+	text-decoration: underline;
+}
+.content img {
+	border-radius: 10px;
+	margin: 5px;
+	max-height: 150px;
+	max-width: 180px;
+}
+
+div .metka{
+/*	width: 180px;*/
+	height: 190px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+/*	background: black;*/
+}
+.about{
+/*	margin-bottom: 5px;*/
+	display: flex;
+	align-items:flex-end;
+	justify-content: center;
+}
+.subheading {
+	background: #BDEEF0;
+	border-bottom: 1px black solid;
+	border-top: 1px black solid;
+	
+}
+
+table{ 
+	display: flex;
+	flex-wrap: wrap;
+/*	width:50;*/
+/*	border:  1px #B8B8B8 solid;*/
+	margin: 5px;
+}
+
+td{
+	padding: 5px;
+	border: 1px #B8B8B8 solid;
+}
+
+
+footer{
+	color:#B8B8B8;
+/*	background:green;*/
+	text-align: center;
+	height: 30px;
+	border-top: 1px #B8B8B8 solid;
+}
+
+.hello{
+	position: fixed;
+/*	background: #B48AE6;*/
+	top:10px;
+	left: 75%;
+	height: 300px;
+	width: 300px;
+
+}
+.ad{
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+}
+.hello img{
+
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	border: 3px hsla(185,70%,31%,1.00) solid;
+}
+.hello h2{
+	position: absolute;
+	top	: 0;
+	left: 60%;
+	color: hsla(359,78%,24%,1.00);
+}
+.close{
+	position: absolute;
+	top	: 0;
+	left: 95%;
+}
+
+
+
+
+
