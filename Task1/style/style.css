@@ -1,0 +1,116 @@
+body{
+/*	background: #0B9CA0;*/
+}
+header{
+	background: #55CBB3;
+/*	padding: 1px;*/
+/*	text-align: center;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	font-family:"Matura MT Script Capitals";
+	height: 80px;
+	border-bottom: 1px #B8B8B8 solid;
+}
+
+
+
+.group{
+	display: flex;
+}
+
+
+menu{
+/*	background: yellow;*/
+	text-align: center;
+	width: 200px;
+	padding:0px;
+	font-family:"Jokerman";
+/*	border-right: 1px #B8B8B8 solid;*/
+}
+
+menu ul {
+	padding:10px;
+}
+menu li{
+	
+	list-style-type: none;
+	border: 1px black solid;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 3px;
+}
+menu li a
+{
+	text-decoration: none;
+}
+
+
+
+
+main{
+/*	background: aqua;*/
+	text-align: center;
+	border-left: 1px #B8B8B8 solid;
+}
+
+.news{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.popular{
+	display: flex;
+	flex-wrap: wrap;
+}
+.content{
+	border: 3px #0B9CA0 double;
+	margin: 5px;
+}
+.content a p {
+	text-decoration: underline;
+}
+.content img {
+	border-radius: 10px;
+	margin: 5px;
+	max-height: 150px;
+	max-width: 180px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div .metka{
+/*	width: 180px;*/
+	height: 190px;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+/*	background: black;*/
+}
+
+.about{
+/*	margin-bottom: 5px;*/
+	display: flex;
+	align-items:flex-end;
+	justify-content: center;
+}
+
+
+.subheading {
+	background: #BDEEF0;
+	border-bottom: 1px black solid;
+	border-top: 1px black solid;
+	
+}
+
+
+
+
+footer{
+	color:#B8B8B8;
+/*	background:green;*/
+	text-align: center;
+	height: 30px;
+	border-top: 1px #B8B8B8 solid;
+}
